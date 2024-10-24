@@ -3,8 +3,7 @@ name: NodeJs App
 on:
     pull_request:
         branches:
-            - 'feature/*'
-            - devel
+            - develop
 jobs: 
     build:
         runs-on: ubuntu-latest
